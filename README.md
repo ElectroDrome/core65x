@@ -6,8 +6,15 @@
 <p align="center"><em>A modular 6502 devboard with retro soul & modern control.</em></p>
 
 <p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-65C02-blue?style=flat-square" />
-  <img alt="Platform" src="https://img.shields.io/badge/platform-PICO-blue?style=flat-square" />
+  <img alt="Platform" src="https://img.shields.io/badge/Core-MPU_WDC_65C02-blue?style=flat-square" />
+  <img alt="Platform" src="https://img.shields.io/badge/Core-MCU_RPI_PICO_2W-blue?style=flat-square" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
+  <img alt="Status" src="https://img.shields.io/badge/status-Under_Development-yellow?style=flat-square" />
+</p>
+
+<p align="center">
+  <img alt="Platform" src="https://img.shields.io/badge/Feature-Modualar-blue?style=flat-square" />
+  <img alt="Platform" src="https://img.shields.io/badge/Core-MCU_PICO-blue?style=flat-square" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
   <img alt="Status" src="https://img.shields.io/badge/status-Under_Development-yellow?style=flat-square" />
 </p>
