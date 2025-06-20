@@ -6,9 +6,10 @@
 <p align="center"><em>A modular 6502 devboard with retro soul & modern control.</em></p>
 
 <p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-6502-blue?style=flat-square" />
+  <img alt="Platform" src="https://img.shields.io/badge/platform-65C02-blue?style=flat-square" />
+  <img alt="Platform" src="https://img.shields.io/badge/platform-PICO-blue?style=flat-square" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
-  <img alt="Status" src="https://img.shields.io/badge/status-WIP-yellow?style=flat-square" />
+  <img alt="Status" src="https://img.shields.io/badge/status-Under_Development-yellow?style=flat-square" />
 </p>
 
 > ✨ Designed for makers, learners, educators, and retro freaks.
