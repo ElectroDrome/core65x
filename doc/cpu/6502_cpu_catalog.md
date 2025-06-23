@@ -1,29 +1,55 @@
 # 🧠 6502-Compatible CPU Reference Catalog
 
-A meticulously curated and richly annotated database of over 120 CPUs and SoCs based on the **MOS Technology 6502 architecture**, spanning nearly five decades of computing history.  
+A **comprehensive, technical, and lovingly retro** catalog of over 120 CPUs, SoCs, clones, softcores and emulators based on the **MOS Technology 6502 architecture**, spanning nearly five decades of computing history.  
+
 This project collects and compares processors from pioneers like **MOS**, **WDC**, and **Rockwell**, as well as lesser-known or embedded clones from **Sunplus**, **Ricoh**, **UMC**, **Mitsubishi**, and more — including systems used in **Commodore, Nintendo, Atari**, and various embedded devices.
+
+From the original NMOS 6502 launched in 1975 to modern drop-in FPGA replacements running at 100 MHz, this catalog is a celebration of 8-bit ingenuity—meticulously compiled and standardized for researchers, retrocomputing fans, hardware hackers, and emulator authors.
 
 ---
 
-## 📘 What’s Inside
+## ✨ Features
 
-- **125+ CPU entries** across **25+ manufacturers**
-- Unified view of:
-  - Architecture and variant type (NMOS, CMOS, 8-/16-bit, SoC, MCU)
-  - **Release year**, opcode range, and signal support (`IRQ`, `NMI`, `RDY`, `SYNC`, `φ2`, etc.)
-  - Clock speeds (rated/typical MHz)
-  - **I/O characteristics** (bit-width or feature sets)
-  - Address space layout (standard 64 KiB or banked/extended)
-  - Notable features and usage (e.g. used in NES, C64, SNES, speech chips, display controllers)
+- 📚 **120+ Entries**: Covers every known 6502 variant—official, unofficial, embedded, or virtual.
+- ⚙️ **Technical Specs**: Unified fields including opcodes, timing, RAM, signals, and relative performance.
+- 🕹️ **Retro Focus**: Includes NES, Apple-1, KIM-1, Commodore 64, VTech Laser, and others.
+- 🔧 **Softcores & Emulators**: From `T65` to `verilog-6502`, including Py65 and browser-based emus.
+- 📦 **Format**: Single flat Markdown table—portable, parsable, and GitHub-friendly.
+
+## 📐 Table Schema
+
+The following fields are used:
+
+| Field             | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| Manufacturer      | Chip designer or project author                                             |
+| Model             | Model name or identifier                                                    |
+| Year              | Year of release or publication                                              |
+| Architecture      | Process, logic family, ISA variant (NMOS, CMOS, 65816, virtual, etc.)       |
+| Clock (MHz)       | Nominal or typical clock rate                                               |
+| RAM               | On-chip RAM (if any), or `external`                                         |
+| I/O Ports         | Integrated or mapped peripherals                                            |
+| Signals           | Supported hardware signal lines (IRQ, RDY, SYNC, SO, VDA/VPA...)            |
+| Opcodes           | Approximate instruction set count, e.g. `212 (65C02)`                       |
+| MIPS              | Estimated millions of instructions per second                              |
+| Cycles/Instr.     | Typical number of cycles per instruction                                    |
+| Rel. Performance  | Relative to baseline MOS 6502 at 1 MHz (`1.0×`)                              |
+| Profile           | Use case: `Retro`, `Embedded`, `MCU`, `SoC`, `Emulator`, `FPGA`, `Replica`  |
+| Notable Features  | Key traits: bus compatibility, removed BCD, extra opcodes, etc.             |
+
 
 ---
 
 ## 🎯 Use Cases
 
 - As a **developer**: Check compatibility of 6502 variants for hardware/emulator targets
-- As an **educator**: Use as reference material in retro computing or embedded systems curricula
+- As a **emulator author**: opcode coverage, cycle accuracy
+- As a **FPGA dev**:  opcode count, signal compatibility
+- As an **educator**: Use as reference material in retro computing or embedded systems curricula and evolution of microprocessor architecture
 - As a **historian/archivist**: Explore the diffusion and evolution of 8-bit CPU design
 - As a **hobbyist**: Compare SoCs used in old consoles, DIY kits, or microcontrollers
+- As a **Retro fan**: console and home computer heritage
+- As a **Builder**: drop-in replacement cores and SBCs
 
 ---
 
