@@ -1,6 +1,6 @@
 # 🧠 6502-Compatible CPU Reference Catalog
 
-A **comprehensive, technical, and lovingly retro** catalog of over 120 CPUs, SoCs, clones, softcores and emulators based on the **MOS Technology 6502 architecture**, spanning nearly five decades of computing history.  
+A **comprehensive, technical, and lovingly retro** catalog of over 100 CPUs, SoCs, clones, softcores and emulators based on the **MOS Technology 6502 architecture**, spanning nearly five decades of computing history.  
 
 This project collects and compares processors from pioneers like **MOS**, **WDC**, and **Rockwell**, as well as lesser-known or embedded clones from **Sunplus**, **Ricoh**, **UMC**, **Mitsubishi**, and more — including systems used in **Commodore, Nintendo, Atari**, and various embedded devices.
 
@@ -10,7 +10,7 @@ From the original NMOS 6502 launched in 1975 to modern drop-in FPGA replacements
 
 ## ✨ Features
 
-- 📚 **120+ Entries**: Covers every known 6502 variant—official, unofficial, embedded, or virtual.
+- 📚 **100+ Entries**: Covers every known 6502 variant—official, unofficial, embedded, or virtual.
 - ⚙️ **Technical Specs**: Unified fields including opcodes, timing, RAM, signals, and relative performance.
 - 🕹️ **Retro Focus**: Includes NES, Apple-1, KIM-1, Commodore 64, VTech Laser, and others.
 - 🔧 **Softcores & Emulators**: From `T65` to `verilog-6502`, including Py65 and browser-based emus.
@@ -152,12 +152,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | WDC          | W65C802      | 1984   | 8/16-bit CMOS       | 14.0        | None               | Yes/Yes/Yes/φ2                  | >212    | Transitional CPU to W65C816 |
 | WDC          | W65C816GPMCU | 1990s  | 8/16-bit CMOS       | up to 14     | MCU interface       | Yes/Yes/Yes/φ2/VMA              | >300    | Embedded variant of 65C816 core |
 
-
-
-
-
-
-
 | Manufacturer | Model     | Year | Architecture           | Clock (MHz) | RAM         | I/O Ports                                      | Signals                        | Opcodes        | MIPS  | Cycles/Instr. | Performance    | Profil     | Notable Features                      |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | aholme.co.uk          | Verilog6502 |2012| Verilog, 6502      |10| extern       | 6502 bus                         | IRQ, NMI, RDY, φ2, SYNC, SO     | 151 (6502)     | 4.3   | 2–7            | 10.0× (6502)    | FPGA   | Phase-accurate, netlist-derived from Visual6502 |
@@ -166,13 +160,9 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | Arlet Ottens | Arlet6502 |2010| Verilog, 6502          |25| extern      | extern (6502 bus)                              | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 10.7  | 2–7            | 25.0× (6502)    | FPGA       | Minimalistic, cycle-accurate          |
 | Arlet Ottens          | Arlet6502   |2010| Verilog, 6502      |25| extern       | 6502 bus                         | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 10.7  | 2–7            | 25.0× (6502)    | FPGA   | Minimalist, cycle-accurate, open source          |
 | Ben Eater    | BE6502      |2019| Breadboard, 6502       |1| extern     | LEDs, switches, serial                         | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Educational| Minimal discrete 6502 computer            |
-| Ben Eater        | Breadboard   |2018| NMOS, W65C02          |1| 32 KiB RAM  | LEDs, switches, LCD, serial                    | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Educational| Modular breadboard computer                  |
-| Ben Eater        | Breadboard   |2018| W65C02               |1| 32 KiB      | LEDs, switches, LCD, serial                    | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Educational| Modular breadboard computer                  |
-| Briel Computers| Replica 1   |2003| NMOS, 6502             |1| 32 KiB       | PS/2, VGA/serial, SD card                      | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Replica     | Apple-1 clone with modern I/O                |
 | Briel Computers  | Replica 1    |2003| NMOS, 6502           |1| 32 KiB      | PS/2, VGA, SD card, USB                        | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Replica     | Apple-1 clone with modern interfaces         |
 | C64 DTV      | DTV 6502  |2004| CMOS, 6502             |32| 128 KiB int.| A/V, USB, GPIO, memory-mapped                  | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 13.7  | 2–7            | 32.0× (6502)    | SoC        | Enhanced 6502 in C64 joystick           |
 | Chambers     | 6502.ts   |2020| TypeScript, 6502       | —           | —           | emulated I/O                                   | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | —     | —              | —              | Emulator   | Browser-based emulator                |
-| Corsham Tech     | KIM Clone    |2017| NMOS, 6502            |1| 5 KiB RAM   | Serial, keypad, LED, SD card                   | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Replica     | KIM-1 compatible with modern I/O             |
 | Corsham Tech     | KIM Clone    |2017| NMOS, 6502           |1| 5 KiB       | Serial, keypad, LED, SD card                   | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Replica     | KIM-1 compatible with modern I/O             |
 | CSG          |4510|1986| CMOS, 65CE02           |2| 2 KiB int.  | 2× Timer, 2× UART, I/O mapped                  | IRQ, NMI, RDY, φ2, SYNC, SO     | 256 (65CE02)   | 0.86  | 2–6            | 2.0× (6502)     | SoC        | Used in Commodore C65                   |
 | CSG          |7501|1984| NMOS, 6502             |1| extern      | 6× GPIO, memory-mapped                         | IRQ, NMI, RDY, φ2, SYNC         | 151 (6502)     | 0.43  | 2–7            | 1.0× (6502)     | Home       | Variant for Plus/4                      |
