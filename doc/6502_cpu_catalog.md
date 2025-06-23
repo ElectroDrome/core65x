@@ -44,11 +44,6 @@ Feel free to open an issue or PR! Contributions, corrections, and datasheet link
 _This project aims to preserve technical knowledge of the 8-bit era — one register, one opcode, one signal at a time._  
 ✨ Built with ❤️ and `| NMI | IRQ | RDY | φ2 |` lines.
 
-
-
-
-
-
 | Manufacturer | Model    | Year | Architecture     | Clock (MHz) | I/O Ports    | Signals (IRQ/NMI/RDY/φ2/...) | Opcodes | Notable Features |
 |--------------|----------|------|------------------|-------------|---------------|-------------------------------|---------|------------------|
 | MOS          | 6502     | 1975 | 8-bit NMOS       | 1.0         | None          | Yes/Yes/Yes/Yes              | 151     | Original MOS design, 64 KiB addr. |
@@ -74,9 +69,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | MOS          | 8500     | 1986 | 8-bit NMOS (HMOS)| 1.0         | 6-bit GPIO    | Yes/Yes/Yes/Yes/BA, φ2       | 151     | HMOS redesign of 6510 |
 | MOS          | 8501     | 1985 | 8-bit NMOS (HMOS)| 1.0         | 6-bit GPIO    | Yes/Yes/Yes/Yes              | 151     | Used in C16, Plus4 |
 | MOS          | 8502     | 1985 | 8-bit NMOS (HMOS)| 2.0         | 6-bit GPIO    | Yes/Yes/Yes/Yes/BA, φ2       | 151     | Used in C128, dual speed |
-
-| Manufacturer | Model      | Year | Architecture     | Clock (MHz) | I/O Ports      | Signals (IRQ/NMI/RDY/φ2/...)   | Opcodes | Notable Features |
-|--------------|------------|------|------------------|-------------|----------------|-------------------------------|---------|------------------|
 | CSG          | 65CE02     | 1986 | 8-bit CMOS       | 2–4         | 16-bit GPIO    | Yes/Yes/Yes/Yes              | >212    | Extended opcodes, faster zero-page |
 | CSG          | 4510       | 1985 | 8-bit CMOS + MMU | 1.0         | Yes (MMU + GPIO)| Yes/Yes/Yes/Yes/φ2, BA       | >212    | Used in C128DCR, banked memory |
 | Rockwell     | R65C00     | 1981 | 8-bit CMOS       | 3–6         | None           | Yes/Yes/Yes/Yes              | ~212    | CMOS efficiency variant |
@@ -93,9 +85,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | CMD (GTE)    | G65SC03–07 | 1983 | 8-bit CMOS       | 2–6         | None           | Yes/Yes/Yes/Yes              | ~212    | Mask variants with layout changes |
 | CMD (GTE)    | G65SC102   | 1983 | 8-bit CMOS MCU   | ~4.0        | 16-bit GPIO    | Yes/Yes/Yes/Yes              | ~212    | Embedded controller |
 | CMD (GTE)    | G65SC112   | 1984 | 8-bit CMOS MCU   | ~4.0        | 16-bit GPIO    | Yes/Yes/Yes/Yes              | ~212    | SoC with expanded memory interface |
-
-| Manufacturer | Model    | Year | Architecture      | Clock (MHz) | I/O Ports      | Signals (IRQ/NMI/RDY/φ2/...)     | Opcodes | Notable Features |
-|--------------|----------|------|-------------------|-------------|----------------|----------------------------------|---------|------------------|
 | Ricoh        | RP2A03   | 1983 | 8-bit NMOS        | 1.79        | None           | IRQ/–/–/φ2                      | ~150    | NES CPU w/ APU, no BRK |
 | Ricoh        | RP2A07   | 1985 | 8-bit NMOS        | 1.66        | None           | IRQ/–/–/φ2                      | ~150    | PAL NES CPU |
 | Ricoh        | 5A22     | 1990 | 16-bit CMOS (SoC) | 3.58        | DMA, timers     | IRQ/NMI/φ2/VMA/BE               | >300    | SNES CPU w/ math & DMA |
@@ -104,9 +93,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | UMC          | UM6502   | 1983 | 8-bit NMOS        | 1.0–2.0     | None           | IRQ/NMI/RDY/SYNC                | 151     | MOS-compatible |
 | UMC          | UM6507   | 1983 | 8-bit NMOS        | 1.19        | None           | IRQ/–/–/SYNC                    | 151     | Atari clone, 8 KiB addressable |
 | UMC          | UM6512   | 1983 | 8-bit NMOS        | 1.0–2.0     | None           | IRQ/NMI/RDY/SYNC                | 151     | Fully compatible variant |
-
-| Manufacturer | Model       | Year  | Architecture      | Clock (MHz) | I/O Ports        | Signals (IRQ/NMI/RDY/φ2/...)     | Opcodes | Notable Features |
-|--------------|-------------|--------|--------------------|-------------|-------------------|----------------------------------|---------|------------------|
 | Mitsubishi   | 7700        | 1984  | 8-bit CMOS MCU     | ~4.0        | 8–16-bit GPIO     | Yes/Yes/Yes/φ2                   | ~212    | Embedded controller for media systems |
 | Mitsubishi   | 7751        | 1985  | 8-bit CMOS MCU     | ~4.0        | 8–16-bit GPIO     | Yes/Yes/Yes/φ2                   | ~212    | TV and household device controller |
 | Mitsubishi   | 7900        | 1986  | 8-bit CMOS MCU     | ~4.0        | 8–16-bit GPIO     | Yes/Yes/Yes/φ2                   | ~212    | Used in video & CD systems |
@@ -122,9 +108,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | Sunplus      | 65S02       | ~2004 | 8-bit CMOS SoC     | ~6.0        | 8–16-bit GPIO     | Yes/Yes/–/–                      | ~212    | TV plug-and-play devices |
 | Sunplus      | CPU6502     | ~2004 | 8-bit CMOS SoC     | ~6.0        | Multiport         | Yes/Yes/–/–                      | ~212    | Generic core embedded in various ASICs |
 | Sunplus      | SPC81A      | ~2005 | 8-bit CMOS SoC     | ~6.0        | Multiport         | Yes/Yes/–/–/CLK                  | ~212    | MP3/audio SoC with LCD & flash |
-
-| Manufacturer | Model       | Year   | Architecture       | Clock (MHz) | I/O Ports        | Signals (IRQ/NMI/RDY/φ2/...)     | Opcodes | Notable Features |
-|--------------|-------------|--------|---------------------|-------------|-------------------|----------------------------------|---------|------------------|
 | Yamaha       | YM-2002     | ?      | 8-bit custom        | ?           | Unknown           | Unknown                          | ?       | Possibly audio-focused 6502-based controller |
 | Sitronix     | ST2205U     | ~2006  | 8-bit CMOS SoC      | 6–12        | 8–16-bit GPIO     | Yes/Yes/–/–/CLK                  | ~212    | MP3 SoC with LCD, flash, USB |
 | Renesas      | 740 Series  | ~1998  | 8-bit CMOS MCU      | ?           | GPIO, I²C         | Yes/Yes/–/–/–                    | ~212    | Japan-only embedded controller |
@@ -134,9 +117,6 @@ _This project aims to preserve technical knowledge of the 8-bit era — one regi
 | Minsk (USSR) | 1869ВМ1     | ~1984  | 8-bit NMOS clone    | ?           | Unknown           | Unknown                          | ~151    | Possible Soviet clone of 6502, rare |
 | Atari        | C014806     | ~1983  | 8-bit NMOS (custom) | ~1.0        | Unknown           | ?/?/?/Yes/φ2                     | ~151    | Internal Atari chip, presumed 6502 core |
 | NCR          | 81489       | ?      | 8-bit CMOS SoC      | ?           | Unknown           | Unknown                          | ?       | Rare custom SoC, documentation scarce |
-
-| Manufacturer | Model        | Year   | Architecture       | Clock (MHz) | I/O Ports         | Signals (IRQ/NMI/RDY/φ2/...)     | Opcodes | Notable Features |
-|--------------|--------------|--------|---------------------|-------------|--------------------|----------------------------------|---------|------------------|
 | Sunplus      | 65R02-8QFP   | ~2003  | 8-bit CMOS SoC      | 6.0         | GPIO + LCD lines   | Yes/Yes/–/–                      | ~212    | Masked version, QFP pkg, used in handhelds |
 | Sunplus      | SPC series   | 2000s  | 8-bit CMOS SoC      | 6.0–12.0     | Audio, LCD, Flash  | Varies                          | ~212    | SPC81A, SPC660, etc. for speech/toy apps |
 | CMD (GTE)    | G65SC03      | 1983   | 8-bit CMOS          | 2.0         | None               | Yes/Yes/Yes/Yes                  | ~212    | Mask-shrunk variant |
