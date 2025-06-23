@@ -47,7 +47,3 @@ The complete documentation lives inside the [`/wiki`](./wiki) directory. Quick e
 2. Source code and wiki are inside the same project directory
 3. Start with [`wiki/Home.md`](wiki/Home.md)
 
----
-
-**License:** MIT  
-**Author:** Andreas + contributors  
