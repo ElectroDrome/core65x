@@ -23,6 +23,8 @@
 
 All product names, logos, and brands are property of their respective owners and used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
 
+---
+
 # Core65X – A Modular 8-Bit Retrocomputer System
 
 Welcome to the `Core65X` project, a fully documented, modular 6502 platform for learning, experimenting, and retro enthusiasm.
