@@ -1,31 +1,46 @@
-# 🧭 Core65X – Navigation
+# 🧭 core65x – Wiki Navigation
 
-## 🔷 Overview
-- [🏠 Home](Home.md)
-- [✅ Final Checks](../final_checks.md)
-- [📚 Reference](reference/)
+## 🏠 Overview
+- [Home](Home.md)
+- [Final Checks](../final_checks.md)
+- [README (Wiki Info)](README.md)
 
 ## 🔧 Hardware
-- [💡 Board Overview](hardware/your_board.md)
-- [📦 Components](hardware/components/)
-- [📐 Schematics](schematics/overview.md)
+- [Mainboard Overview](hardware/your_board.md)
+- [Build Log & Milestones](hardware/build_log.md)
 
-## 💾 Memory
-- [🧠 RAM Banking](hardware/memory/ram_banking.md)
-- [📖 ROM Banking](hardware/memory/rom_banking.md)
-- [📝 EEPROM via Flash](hardware/memory/eeprom_via_flash.md)
-- [🗺️ Mapping Strategies](hardware/memory/map_strategies.md)
+### 💾 Memory
+- [RAM Banking](hardware/memory/ram_banking.md)
+- [ROM Banking](hardware/memory/rom_banking.md)
+- [EEPROM via Flash](hardware/memory/eeprom_via_flash.md)
+- [Memory Mapping Strategies](hardware/memory/map_strategies.md)
 
-## 🧩 Interfaces
-- [🎮 Input Devices](hardware/interfaces/input/)
-- [🖥️ Output Modules](hardware/interfaces/output/)
-- [🧪 Debug & Expansion](hardware/interfaces/debug/)
+### 💽 Storage
+- [Flash Layout](hardware/storage/flash_layout.md)
+- [File Formats](hardware/storage/file_formats.md)
 
-## 🛠️ Projects & Tools
-- [🧰 Build Log](hardware/build_log.md)
-- [📐 Footprints & PCBs](hardware/components/footprints_and_pcbs.md)
-- [📋 BOM & Sourcing](hardware/components/sourcing_notes.md)
+### 🧩 Components
+- [DIP Switches & Jumpers](hardware/components/dip_and_jumpers.md)
+- [Sourcing Notes](hardware/components/sourcing_notes.md)
+- [Footprints & PCB Layouts](hardware/components/footprints_and_pcbs.md)
 
-## 🧭 External Platforms
-- [🧬 CPU & SoC Catalog](catalog/)
-- [🖥️ Systems & Kits](platforms/)
+### 🔌 Interfaces
+- 🕹️ [Input Devices](hardware/interfaces/input/)
+- 🖥️ [Output Modules](hardware/interfaces/output/)
+- 🧪 [Debug & Expansion](hardware/interfaces/debug/)
+
+## 📐 Schematics
+- [System Overview](schematics/overview.md)
+- [Diagrams Folder](schematics/diagrams/)
+
+## 📚 Reference
+- [6502 Signals](reference/signals.md)
+- [Opcode Matrix](reference/opcode_matrix.md)
+- [Useful Links](reference/links.md)
+
+## 🖥️ Platforms
+- [Retro Kits](platforms/retro_kits.md)
+
+## 🧬 Catalogs
+- [6502 Variants](catalog/6502_variants.md)
+- [I/O Chip Catalog](catalog/io_chips_catalog.md)
