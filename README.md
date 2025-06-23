@@ -31,8 +31,7 @@ Welcome to the `Core65X` project, a fully documented, modular 6502 platform for 
 
 ---
 
-# >>> This project is under development!
-# >>> Nothing here to see yet. <<<
+# This project is under development! Nothing to see here at the moment. Please come back after approval.
 
 > ⚠️ **Note:** This project is currently under development. 
 > Content and structure may change at any time.  
