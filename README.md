@@ -5,19 +5,13 @@
 <h1 align="center">Core65X</h1>
 <p align="center"><em>A modular 6502 devboard with retro soul & modern control.</em></p>
 
-<p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/Core-MPU_WDC_65C02-blue?style=flat-square" />
-  <img alt="Platform" src="https://img.shields.io/badge/Core-MCU_RPI_PICO_2W-blue?style=flat-square" />
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
-  <img alt="Status" src="https://img.shields.io/badge/status-Under_Development-yellow?style=flat-square" />
-</p>
+---
 
-<p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/Feature-Modualar-blue?style=flat-square" />
-  <img alt="Platform" src="https://img.shields.io/badge/Core-MCU_PICO-blue?style=flat-square" />
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
-  <img alt="Status" src="https://img.shields.io/badge/status-Under_Development-yellow?style=flat-square" />
-</p>
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Hardware: CERN-OHL v2](https://img.shields.io/badge/hardware-CERN--OHL--v2-lightgrey)
+![Docs: CC BY-SA 4.0](https://img.shields.io/badge/docs-CC--BY--SA--4.0-yellowgreen)
+![Build: RetroAssemble](https://img.shields.io/badge/build-Core65X-blueviolet)
+![Status: Active](https://img.shields.io/badge/status-Under_Development-red)
 
 > ✨ Designed for makers, learners, educators, and retro freaks.
 
