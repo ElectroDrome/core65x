@@ -23,6 +23,14 @@ Welcome to the `Core65X` project, a fully documented, modular 6502 platform for 
 
 ---
 
+# This project is under development! Nothing to see here at the moment. Please come back after approval.
+
+> ⚠️ **Note:** This project is currently under development. 
+> Content and structure may change at any time.  
+> There may be no information here yet – please check back later.
+
+---
+
 ## 📜 License Summary
 
 This repository uses **multiple licenses** to reflect its mixed nature:
@@ -45,7 +53,3 @@ Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
 ---
 
 # This project is under development! Nothing to see here at the moment. Please come back after approval.
-
-> ⚠️ **Note:** This project is currently under development. 
-> Content and structure may change at any time.  
-> There may be no information here yet – please check back later.
