@@ -27,7 +27,26 @@ All product names, logos, and brands are property of their respective owners and
 
 # Core65X – A Modular 8-Bit Retrocomputer System
 
-Welcome to the `Core65X` project, a fully documented, modular 6502 platform for learning, experimenting, and retro enthusiasm.
+Welcome to the `Core65X` project, a fully documented, modular 6502 platform for learning, experimenting, and retro enthusiasm. The **Core65X** is a handcrafted, modular retro computer inspired by classic 6502 systems. It blends traditional 8-bit architecture with modern building blocks, aiming for transparency, tinkering, and technical elegance.
+
+---
+
+## 📜 License Summary
+
+This repository uses **multiple licenses** to reflect its mixed nature:
+
+- **Code** (6502/Pico/tools): see [`LICENSE`](./LICENSE) (MIT)
+- **Hardware** (schematics, layouts, power): see [`HARDWARE-LICENSE`](./HARDWARE-LICENSE)
+- **Documentation** (Markdown, diagrams): see [`DOCS-LICENSE.md`](./DOCS-LICENSE.md)
+
+You are free to use, remix, fork, and extend this project under the terms of those licenses. If in doubt, give credit and ask politely.
+
+---
+
+## 🤖 Credits
+
+Built with solder, spreadsheets, and passion by **Andreas Potthoff**  
+Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
 
 ---
 
