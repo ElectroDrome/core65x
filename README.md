@@ -49,7 +49,3 @@ All product names, logos, and brands are property of their respective owners and
 
 Built with solder, spreadsheets, and passion by **Andreas Potthoff**  
 Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
-
----
-
-# This project is under development! Nothing to see here at the moment. Please come back after approval.
