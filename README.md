@@ -15,8 +15,6 @@
 
 > ✨ Designed for makers, learners, educators, and retro freaks.
 
-All product names, logos, and brands are property of their respective owners and used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
-
 ---
 
 # Core65X – A Modular 8-Bit Retrocomputer System
@@ -35,11 +33,7 @@ This repository uses **multiple licenses** to reflect its mixed nature:
 
 You are free to use, remix, fork, and extend this project under the terms of those licenses. If in doubt, give credit and ask politely.
 
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-![Hardware: CERN-OHL v2](https://img.shields.io/badge/hardware-CERN--OHL--v2-lightgrey)
-![Docs: CC BY-SA 4.0](https://img.shields.io/badge/docs-CC--BY--SA--4.0-yellowgreen)
-![Build: RetroAssemble](https://img.shields.io/badge/build-Core65X-blueviolet)
-![Status: Active](https://img.shields.io/badge/status-Under_Development-red)
+All product names, logos, and brands are property of their respective owners and used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
 
 ---
 
