@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/branding/core65x_logo.png" alt="Core65X Logo" width="600"/>
+  <img src="assets/branding/core65x_logo.png" alt="Core65X Logo" width="800"/>
 </p>
 
 <h1 align="center">Core65X</h1>
