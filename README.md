@@ -45,7 +45,7 @@ You are free to use, remix, fork, and extend this project under the terms of tho
 ![Hardware: CERN-OHL v2](https://img.shields.io/badge/hardware-CERN--OHL--v2-lightgrey)
 ![Docs: CC BY-SA 4.0](https://img.shields.io/badge/docs-CC--BY--SA--4.0-yellowgreen)
 ![Build: RetroAssemble](https://img.shields.io/badge/build-Core65X-blueviolet)
-![Status: Active](https://img.shields.io/badge/status-active-success)
+![Status: Active](https://img.shields.io/badge/status-Under_Development-red)
 
 ---
 
