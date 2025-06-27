@@ -36,8 +36,8 @@ Welcome to the `Core65X` project, a fully documented, modular 6502 platform for 
 This repository uses **multiple licenses** to reflect its mixed nature:
 
 - **Code** (6502/Pico/tools): see [`LICENSE`](./LICENSE) (MIT)
-- **Hardware** (schematics, layouts, power): see [`HARDWARE-LICENSE`](./HARDWARE-LICENSE)
-- **Documentation** (Markdown, diagrams): see [`DOCS-LICENSE.md`](./DOCS-LICENSE.md)
+- **Hardware** (schematics, layouts, power): see [`HARDWARE-LICENSE`](./cern_ohl_s_v2.txt) (CERN-OHL-S v2)
+- **Documentation** (Markdown, diagrams): see [`DOCS-LICENSE.md`](./CC_BY-SA_4.0.txt) (CC BY-SA 4.0)
 
 You are free to use, remix, fork, and extend this project under the terms of those licenses. If in doubt, give credit and ask politely.
 
