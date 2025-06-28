@@ -45,6 +45,14 @@ All product names, logos, and brands are property of their respective owners and
 
 ---
 
+## ⚠️ Datasheet Availability Notice
+
+Due to copyright restrictions, this project does **not include any component datasheets**.
+
+Wherever possible, publicly available datasheets are linked to trusted external sources (e.g. manufacturer websites or archival services). These links are provided for **educational and reference purposes only**, and all rights remain with the respective copyright holders.
+
+For an overview of referenced components and their associated datasheets, see [`docs/datasheets.md`](docs/datasheets.md)
+
 ## 🤖 Credits
 
 Built with solder, spreadsheets, and passion by **Andreas Potthoff**  
