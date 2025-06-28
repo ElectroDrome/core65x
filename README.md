@@ -55,5 +55,6 @@ For an overview of referenced components and their associated datasheets, see [`
 
 ## 🤖 Credits
 
-Built with solder, spreadsheets, and passion by **Andreas Potthoff** and contributors.
+Built with solder, spreadsheets, and passion by **Andreas Potthoff** and contributors
+
 Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
