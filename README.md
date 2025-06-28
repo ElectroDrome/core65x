@@ -41,7 +41,7 @@ This repository uses **multiple licenses** to reflect its mixed nature:
 
 You are free to use, remix, fork, and extend this project under the terms of those licenses. If in doubt, give credit and ask politely.
 
-All product names, logos, and brands are property of their respective owners and used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.
+All product names, logos, and brands are property of their respective owners and used in this website are for identification and educational purposes only. Use of these names, logos, and brands does not imply endorsement.
 
 ---
 
@@ -55,4 +55,5 @@ For an overview of referenced components and their associated datasheets, see [`
 
 ## 🤖 Credits
 
-Built with solder, spreadsheets, and passion by **Andreas Potthoff** and contributors. Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
+Built with solder, spreadsheets, and passion by **Andreas Potthoff** and contributors.
+Conceptual guidance, documentation, and digital support: Microsoft **Copilot**
