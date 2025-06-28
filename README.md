@@ -17,7 +17,7 @@
 
 ---
 
-# Core65X – A Modular 8-Bit Retrocomputer System
+# Core65X – 8-Bit Retrocomputer System
 
 Welcome to the `Core65X` project, a fully documented, modular 6502 platform for learning, experimenting, and retro enthusiasm. The **Core65X** is a handcrafted, modular retro computer inspired by classic 6502 systems. It blends traditional 8-bit architecture with modern building blocks, aiming for transparency, tinkering, and technical elegance.
 
