@@ -20,7 +20,8 @@
 | Status | Module Name        | Schematic                                                     | Features                                     |
 |--------|--------------------|---------------------------------------------------------------|----------------------------------------------|
 | 🟢     | Power Supply        | [power_supply.png](mainboard/modules/power_supply.png)         | 5 V fixed (7805), 3.3 V adjustable (LM317), LED |
-| 🟡     | Clock Generator     | _(in progress)_                                                | Crystal-based, optional divider              |
+| 🟡     | Clock Generator 1     | _(in progress)_                                                | Ben Eater based clock generator              |
+| 🟡     | Clock Generator 2     | _(in progress)_                                                | Crystal-based, optional divider              |
 | 🟡     | Bus Matrix / Ports  | _(in progress)_                                                | 573/245 logic, port muxing                   |
 | 🟡     | Core Logic          | _(in progress)_                                                | Core65X + glue logic                         |
 | 🟡     | Memory Module       | _(in progress)_                                                   | ROM/RAM/Bank switching support               |
