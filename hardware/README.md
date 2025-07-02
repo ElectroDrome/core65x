@@ -25,6 +25,7 @@
 | 🟡     | Core Logic          | _(in progress)_                                                | Core65X + glue logic                         |
 | 🟡     | Memory Module       | _(in progress)_                                                   | ROM/RAM/Bank switching support               |
 | 🟡     | Debug Header        | _(in progress)_                                               | Signals breakout, testpoints                 |
+| 🟡     | Storage Module       | _(in progress)_                                                   | EEPROM, SD-Card, USB mass media                |
 
 ---
 
@@ -34,7 +35,9 @@
 |--------|-------------------------|--------------------------------------------------------------|--------------------------------------------|
 | 🔴     | Userport Quad           | _(planned)_                                                  | 4× 8-bit I/O, I²C controlled                |
 | 🔴     | Bus Tap Probe           | _(planned)_                                                  | Passive bus snooping (A/D/CTRL)            |
-| 🔴     | I²C Expander            | _(planned)_                                                  | PCF8574 or MCP23017 for GPIO extension     |
+| 🔴     | I²C Expander            | _(planned)_                                                  | 2x MCP23017     |
+
+| 🔴     | SPI Expander            | _(planned)_                                                  | 2x MCP23S17     |
 
 ---
 
@@ -44,7 +47,7 @@
 |--------|-------------------------|--------------------------------------------------------------|--------------------------------------------|
 | 🔴 | Temperature Sensor       | _(planned)_                                                   | LM75, I²C, address-configurable             |
 | 🔴 | Analog Mux Input         | _(planned)_                                                  | 8-channel analog via 4051                   |
-| 🔴     | Light Sensor Board       | _(planned)_                                                  | Phototransistor array                      |
+| 🔴 | Light Sensor Module       | _(planned)_                                                  | Phototransistor array                      |
 
 ---
 
@@ -53,7 +56,7 @@
 | Status | Module Name             | Schematic                                                   | Features                                   |
 |--------|-------------------------|--------------------------------------------------------------|--------------------------------------------|
 | 🔴     | LED Nibblebar           | _(planned)_              | 8 LEDs, grouped as 2×4 for hex readability |
-| 🔴     | Relay Driver Board      | _(planned)_)                 | 2× NPN + flyback diode                     |
+| 🔴     | Relay Driver Module      | _(planned)_)                 | 2× NPN + flyback diode                     |
 | 🔴     | 7-Segment Display        | _(planned)_                                           | 2-digit, BCD decoding planned              |
 
 ---
