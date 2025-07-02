@@ -19,7 +19,7 @@
 
 | Status | Module Name            | Schematic                                                     | Features                                           |
 |--------|------------------------|----------------------------------------------------------------|----------------------------------------------------|
-| 🟢     | Power Supply            | [power_supply.png](mainboard/modules/power_supply.png)         | 5 V fixed (7805), 3.3 V LM317, status LED          |
+| 🟢     | Dual Power Supply      | [power_supply.png](mainboard/modules/power_supply.png)         | 5 V fixed (7805), 3.3 V LM317, status LED          |
 | 🟡     | Clock Generator         | clockgen.png                                                  | Crystal, divider chain, 1–8 MHz output             |
 | 🔴     | Core Logic              | —                                                              | Core65X CPU, glue logic, reset, decoding           |
 | 🔴     | Bus Matrix / Ports      | —                                                              | 573/245 logic, CTRL multiplexing                   |
@@ -67,7 +67,7 @@
 
 | Status | Module Name             | Schematic                               | Features                                      |
 |--------|-------------------------|------------------------------------------|-----------------------------------------------|
-| 🟢     | Dual Linear Supply       | [power_duallinear.png](power/power_duallinear.png) | 5 V + 3.3 V, screw terminals, LED            |
+| 🔴     | Dual Linear Supply       | —                                       | 5 V + 3.3 V, screw terminals, LED            |
 | 🔴     | Power Distribution Node  | —                                       | Fused outputs, header rail                    |
 | 🔴     | USB-C Power Module       | —                                       | PD trigger or buck controller                 |
 | 🔴     | Soft-Start Controller    | —                                       | Delayed enable, switch debounce               |
