@@ -21,9 +21,11 @@
 |--------|------------------------|----------------------------------------------------------------|----------------------------------------------------|
 | 🟢     | Dual Power Supply      | [power_supply.png](mainboard/modules/power_supply.png)         | 5 V fixed (7805), 3.3 V LM317, status LED          |
 | 🟡     | Clock Generator         | clockgen.png                                                  | Crystal, divider chain, 1–8 MHz output             |
-| 🔴     | CPU & Reset Module           | —                                                              | 1x 65C02 + Reset                    |
+| 🔴     | CPU & Reset Module           | —                                                        | 1x W65C02 + Reset                    |
+| 🔴     | CoPro Mega 2560 Pro          | —                                                        | 1x MCU Mega 2560 Pro                   |
+| 🔴     | CoPro Pico 2W          | —                                                              | 1x Pico RP2350 SC1633                  |
 | 🔴     | Core Logic              | —                                                              | Core65X CPU, glue logic, reset, decoding           |           |
-| 🔴     | Memory Module           | —                                                              | ROM, RAM, optional banking                        |
+| 🔴     | Memory Module           | —                                                              | 1x ROM, RAM, optional banking                        |
 | 🔴     | Storage Module           | —                                                              | EEPROM, SD-Card, USB mass media                         |
 | 🔴     | Bus Matrix / Ports      | —                                                              | 573/245 logic, CTRL multiplexing       
 | 🔴     | Debug Header            | —                                                              | Testpoints, jumper config, /RD tap                 |
