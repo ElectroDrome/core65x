@@ -21,9 +21,11 @@
 |--------|------------------------|----------------------------------------------------------------|----------------------------------------------------|
 | 🟢     | Dual Power Supply      | [power_supply.png](mainboard/modules/power_supply.png)         | 5 V fixed (7805), 3.3 V LM317, status LED          |
 | 🟡     | Clock Generator         | clockgen.png                                                  | Crystal, divider chain, 1–8 MHz output             |
-| 🔴     | Core Logic              | —                                                              | Core65X CPU, glue logic, reset, decoding           |
-| 🔴     | Bus Matrix / Ports      | —                                                              | 573/245 logic, CTRL multiplexing                   |
-| 🔴     | Memory Module           | —                                                              | ROM, RAM, optional banking                         |
+| 🔴     | CPU & Reset Module           | —                                                              | 1x 65C02 + Reset                    |
+| 🔴     | Core Logic              | —                                                              | Core65X CPU, glue logic, reset, decoding           |           |
+| 🔴     | Memory Module           | —                                                              | ROM, RAM, optional banking                        |
+| 🔴     | Storage Module           | —                                                              | EEPROM, SD-Card, USB mass media                         |
+| 🔴     | Bus Matrix / Ports      | —                                                              | 573/245 logic, CTRL multiplexing       
 | 🔴     | Debug Header            | —                                                              | Testpoints, jumper config, /RD tap                 |
 
 ---
