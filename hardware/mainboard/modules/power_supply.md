@@ -40,7 +40,6 @@ The LM317 regulates its output based on two resistors:
 Formula: Vout = 1.25V * (1 + R2/R1)
 
 R1 = 240 Ω
-
 R2 = ?
 
 3.3V = 1.25V * (1 + R2/240)
