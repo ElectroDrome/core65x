@@ -57,7 +57,7 @@ Vout = 1.25V * (1 + 1.64)\
 Vout = 1.25V * 2.64\
 Vout ≈ 3.30V
 
-R2 = 392 + 1.6
+R2 = 392 + 1.6 = 393.6 Ω
 
 All resistors metal film E96 series 1%
 
