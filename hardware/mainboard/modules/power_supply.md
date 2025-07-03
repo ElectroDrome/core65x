@@ -37,13 +37,31 @@ This module provides a stable, linear-regulated dual voltage supply for the `cor
 
 The LM317 regulates its output based on two resistors:
 
-> \( V_\text{OUT} = 1.25\,\text{V} \cdot \left(1 + \frac{R_2}{R_1} \right) \)
+Formula: Vout = 1.25V * (1 + R2/R1)
 
-Example calculation for 3.3 V:
+R1 = 240 Ω
 
-- R₁ = 240 Ω  
-- R₂ ≈ 390 Ω  
-- Result: \( V_\text{OUT} \approx 3.3\,\text{V} \)
+R2 = ?
+
+3.3V = 1.25V * (1 + R2/240)
+
+R2/240 = 3.3V / 1.25V - 1
+R2/240 = 2.64 - 1
+R2/240 = 1.64
+
+R2 = 1.64 * 240
+R2 ≈ 393.6 Ω
+
+Vout = 1.25V * (1 + R2/R1)
+Vout = 1.25V * (1 + 393.6/240)
+Vout = 1.25V * (1 + 1.64)
+Vout = 1.25V * 2.64
+Vout ≈ 3.30V
+
+R2 = 392 + 1.6
+
+All resistors metal film E96 series 1%
+
 
 ---
 
