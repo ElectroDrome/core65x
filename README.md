@@ -19,7 +19,7 @@
 
 # Core65X – Modular 65C02 Development & Training Platform
 
-**Computing, Observation, Retro Engineering – eXtended**
+**CORE | Computing, Observation, Retro Engineering – eXtended**
 
 Core65X is a modular and expandable 65C02-based system designed for learning, experimentation, and hardware development. It combines retro computing principles with modern tools and techniques, making it ideal for education, debugging, and system design.
 
