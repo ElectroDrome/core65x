@@ -30,6 +30,9 @@ This module provides a stable, linear-regulated dual voltage supply for the `cor
 | Cooling              | Heatsink recommended for >500 mA load  |
 | Mounting             | Through-hole · TO-220 packages         |
 | Output Connectors    | Screw terminals / pin headers          |
+| Provides          | System-wide +5 V and +3.3 V rails        |
+| Upstream Supply   | Barrel jack or external DC input         |
+| Downstream Loads  | All logic, MCU, DAC, memory, displays…  
 
 ---
 
@@ -61,19 +64,5 @@ R2 = 392 + 1.6 = 393.6 Ω
 
 All resistors metal film E96 series 1%
 
-
----
-
-## 🧩 Integration in `core65x`
-
-| Field             | Description                              |
-|------------------|------------------------------------------|
-| Module Name       | `power_supply`                           |
-| Board             | Mainboard                                |
-| Status            | ✅ Active                                 |
-| Provides          | System-wide +5 V and +3.3 V rails        |
-| Upstream Supply   | Barrel jack or external DC input         |
-| Downstream Loads  | All logic, MCU, DAC, memory, displays…   |
-| Location in Repo  | `hardware/mainboard/modules/power_supply.*` |
 
 ---
