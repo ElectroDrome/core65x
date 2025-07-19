@@ -1,6 +1,6 @@
 # 🔋 power_supply – Dual Voltage Supply (5 V & 3.3 V)
 
-This module provides a stable, linear-regulated dual voltage supply for the `Core65X` mainboard and peripheral ecosystem. It offers both +5 V and +3.3 V output rails using standard TO-220 regulators.
+This module provides regulated +5 V and +3.3 V rails for `Core65X` mainboard and peripherals. It uses two TO-220 regulators and delivers stable linear power for mixed analog/digital environments.
 
 ![power_supply](power_supply.png)
 
@@ -66,21 +66,35 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 
 ---
 
-## Measurements
+## 📊 Test Results
 
-### Test setup
+| Setup               | 5 V Output | 3.3 V Output |
+|---------------------|------------|--------------|
+| Breadboard Test     | 5.079 V    | 3.314 V      |
+| Core65X PCB         | —          | —            |
 
-Measured output voltages
-Vin: 9V
-Vout 5V : 5.079
-Vout 3v3: 3.314
+---
 
-### Core65X PCB setup
+## 📦 Bill of Materials (BOM)
 
-Measured output voltages
-Vin: 9V
-Vout 5V : pending
-Vout 3V3: pending
+| Qty | Type               | Value           | Properties                          | Package   | Manufacturer Part # | Mouser #       | Reichelt #         |
+|-----|--------------------|------------------|--------------------------------------|-----------|----------------------|------------------|---------------------|
+| 2   | LED Resistor       | 1 kΩ             | Carbon, E24, 250 mW, 5%             | 0207      | CFR-25JT-52-1K       | —                | 1/4W 1,0K           |
+| 1   | Regulator          | L78S05CV         | Fixed +5 V, 2 A                      | TO-220    | L78S05CV             | 511-L78S05CV     | µA 78S05            |
+| 1   | Regulator          | LM317T           | Adjustable +3.3 V, 1.5 A            | TO-220    | LM317T               | 926-LM317T       | LM 317-220 SG       |
+| 1   | Capacitor (Elko)   | 220 µF / 35 V    | Axial                                | Axial     | —                    | —                | RAD 220/35          |
+| 1   | Capacitor (Elko)   | 47 µF / 35 V     | Axial                                | Axial     | —                    | —                | RAD 47/35           |
+| 1   | Capacitor (Elko)   | 10 µF / 35 V     | Axial                                | Axial     | —                    | —                | RAD 10/35           |
+| 1   | LED                | Green 3.3 V      | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GN          |
+| 1   | LED                | Yellow 3.3 V     | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GE          |
+| 1   | Diode              | 1N5400           | 50 V, 3 A, axial                     | DO-201AD  | 1N5400               | 583-1N5400       | 1N 5400             |
+| 1   | Adjust Resistor R1 | 240 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
+| 1   | Adjust Resistor R2a| 392 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
+| 1   | Adjust Resistor R2b| 1.6 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
+| 1   | Header             | +5 V             | Pin Header, 2×05                    | THT       | —                    | —                | —                   |
+| 1   | Header             | +3.3 V           | Pin Header, 2×05                    | THT       | —                    | —                | —                   |
+| 1   | Header             | GND              | Pin Header, 2×05                    | THT       | —                    | —                | —                   |
+| 1   | Terminal Block     | +7–12 V Input    | 2-pin screw terminal                | THT       | —                    | —                | —                   |
+| 1   | Header             | +7–12 V Input    | Pin Header, 1×02                    | THT       | —                    | —                | —                   |
 
-## BOM
-
+---
