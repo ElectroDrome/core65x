@@ -2,7 +2,7 @@
 
 This module provides regulated +5 V and +3.3 V rails for `Core65X` mainboard and peripherals. It uses two TO-220 regulators and delivers stable linear power for mixed analog/digital environments.
 
-![power_supply](power_supply.png)
+![power_supply](power_supply_schematics.png)
 
 ---
 
