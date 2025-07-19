@@ -85,8 +85,8 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 | 1   | Capacitor (Elko)   | 220 µF           | 35 V, Axial                         | Axial     | —                    | —                | RAD 220/35          |
 | 1   | Capacitor (Elko)   | 47 µF            | 35 V, Axial                         | Axial     | —                    | —                | RAD 47/35           |
 | 1   | Capacitor (Elko)   | 10 µF            | 35 V, Axial                         | Axial     | —                    | —                | RAD 10/35           |
-| 1   | LED Indicator 5 V                | Green 3.3 V      | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GN          |
-| 1   | LED Indicator 3V3               | Yellow 3.3 V     | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GE          |
+| 1   | LED Indicator 5 V                | Green      | 3.3 V, 3 mm, THT                            | THT       | —                    | —                | LED 3MM GN          |
+| 1   | LED Indicator 3V3               | Yellow     |  3.3 V, 3 mm, THT                            | THT       | —                    | —                | LED 3MM GE          |
 | 1   | Diode              | 1N5400           | 50 V, 3 A, axial                     | DO-201AD  | 1N5400               | 583-1N5400       | 1N 5400             |
 | 1   | Adjust Resistor R1 | 240 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
 | 1   | Adjust Resistor R2a| 392 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
