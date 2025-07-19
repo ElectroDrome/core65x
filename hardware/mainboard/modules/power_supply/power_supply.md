@@ -70,8 +70,8 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 
 | Setup               | 5 V Output | 3.3 V Output |
 |---------------------|------------|--------------|
-| Breadboard Test     | 5.079 V    | 3.314 V      |
-| Core65X PCB         | —          | —            |
+| Single PCB Test     | 5.079 V    | 3.314 V      |
+| Core65X PCB         | pending    | pending      |
 
 ---
 
