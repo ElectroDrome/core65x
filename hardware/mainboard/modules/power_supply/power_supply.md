@@ -80,8 +80,8 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 | Qty | Component Type      | Value / Description | Properties / Notes          | Package  | Manufacturer Part # | Mouser #     | Reichelt #    |
 |-----|---------------------|---------------------|-----------------------------|----------|---------------------|--------------|---------------|
 | 2   | LED Resistor        | 1k Ohm                | Carbon, E24, 250 mW, 5%     | 0207     | CFR-25JT-52-1K      |              | 1/4W 1,0K     |
-| 1   | Voltage Regulator   | L78S05CV            | Fixed +5?V, 2 A             | TO-220   | L78S05CV            | 511-L78S05CV | uA 78S05      |
-| 1   | Voltage Regulator   | LM317T              | Adjustable +3.3?V, 1.5?A    | TO-220   | LM317T              | 926-LM317T   | LM 317-220 SG |
+| 1   | Voltage Regulator   | L78S05CV            | Fixed +5 V, 2 A             | TO-220   | L78S05CV            | 511-L78S05CV | uA 78S05      |
+| 1   | Voltage Regulator   | LM317T              | Adjustable +3.3 V, 1.5?A    | TO-220   | LM317T              | 926-LM317T   | LM 317-220 SG |
 | 1   | Capacitor (Elko)    | 220 uF / 35 V       | Axial                       | Axial    |                     |              | RAD 220/35    |
 | 1   | Capacitor (Elko)    | 47 uF / 35 V        | Axial                       | Axial    |                     |              | RAD 47/35     |
 | 1   | Capacitor (Elko)    | 10 uF / 35 V        | Axial                       | Axial    |                     |              | RAD 10/35     |
@@ -94,5 +94,5 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 | 1   | Output Header       | +5 V                | Pin Header 2x05             | THT      |                     |              |               |
 | 1   | Output Header       | +3.3 V              | Pin Header 2x05             | THT      |                     |              |               |
 | 1   | Output Header       | GND                 | Pin Header 2x05             | THT      |                     |              |               |
-| 1   | Terminal Block      | +7-12?V Input       | 2-pin screw terminal        | THT      |                     |              |               |
-| 1   | Header              | +7-12?V Input       | Pin Header 1x02             | THT      |                     |              |               |
+| 1   | Terminal Block      | +7-12 V Input       | 2-pin screw terminal        | THT      |                     |              |               |
+| 1   | Header              | +7-12 V Input       | Pin Header 1x02             | THT      |                     |              |               |
