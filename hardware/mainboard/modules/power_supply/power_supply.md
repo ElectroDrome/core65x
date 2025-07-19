@@ -82,11 +82,11 @@ Resistors R1a1 (240 Ohm), R2a1 (392 Ohm), R2a2 (1.6 Ohm): E96 series, Metall, 1%
 | 2   | LED Resistor       | 1 kΩ             | Carbon, E24, 250 mW, 5%             | 0207      | CFR-25JT-52-1K       | —                | 1/4W 1,0K           |
 | 1   | Regulator          | L78S05CV         | Fixed +5 V, 2 A                      | TO-220    | L78S05CV             | 511-L78S05CV     | µA 78S05            |
 | 1   | Regulator          | LM317T           | Adjustable +3.3 V, 1.5 A            | TO-220    | LM317T               | 926-LM317T       | LM 317-220 SG       |
-| 1   | Capacitor (Elko)   | 220 µF / 35 V    | Axial                                | Axial     | —                    | —                | RAD 220/35          |
-| 1   | Capacitor (Elko)   | 47 µF / 35 V     | Axial                                | Axial     | —                    | —                | RAD 47/35           |
-| 1   | Capacitor (Elko)   | 10 µF / 35 V     | Axial                                | Axial     | —                    | —                | RAD 10/35           |
-| 1   | LED                | Green 3.3 V      | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GN          |
-| 1   | LED                | Yellow 3.3 V     | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GE          |
+| 1   | Capacitor (Elko)   | 220 µF           | 35 V, Axial                         | Axial     | —                    | —                | RAD 220/35          |
+| 1   | Capacitor (Elko)   | 47 µF            | 35 V, Axial                         | Axial     | —                    | —                | RAD 47/35           |
+| 1   | Capacitor (Elko)   | 10 µF            | 35 V, Axial                         | Axial     | —                    | —                | RAD 10/35           |
+| 1   | LED Indicator 5 V                | Green 3.3 V      | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GN          |
+| 1   | LED Indicator 3V3               | Yellow 3.3 V     | 3 mm, THT                            | THT       | —                    | —                | LED 3MM GE          |
 | 1   | Diode              | 1N5400           | 50 V, 3 A, axial                     | DO-201AD  | 1N5400               | 583-1N5400       | 1N 5400             |
 | 1   | Adjust Resistor R1 | 240 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
 | 1   | Adjust Resistor R2a| 392 Ω            | Metal film, E96, 250 mW, 1%         | 0207      | —                    | —                | —                   |
