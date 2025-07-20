@@ -5,6 +5,7 @@ This document is the result of countless hours of research, cross-referencing, a
 Each entry in this list has been carefully curated to reflect not only technical specifications — such as clock speed, opcode count, signal compatibility, and performance — but also the historical and architectural context that shaped its design. Whether you're exploring retro computing, building your own SBC, or designing a modern machine-time system, this catalog offers a comprehensive reference across decades of silicon innovation.
 
 Highlights include:
+- ✅ 102+ variants listed
 - ✅ Original MOS and Synertek variants
 - ✅ CMOS successors and embedded SoCs
 - ✅ FPGA softcores with cycle-accurate timing
