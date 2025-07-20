@@ -6,6 +6,7 @@ Each entry in this list has been carefully curated to reflect not only technical
 
 Highlights include:
 - ✅ 102+ variants listed
+- ✅ Manufacturer|Model|Year|Architecture|Clock (MHz)|RAM|I/O Ports|Signals|Opcodes|MIPS|Cycles/Instr.|Performance|Profil|Notable Features
 - ✅ Original MOS and Synertek variants
 - ✅ CMOS successors and embedded SoCs
 - ✅ FPGA softcores with cycle-accurate timing
