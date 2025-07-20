@@ -1,3 +1,24 @@
+# 🧠 6502 CPU Catalog – A Tribute to the Silicon Lineage
+
+This document is the result of countless hours of research, cross-referencing, and technical deep-dives into the world of 6502-compatible processors. From the original NMOS chips of the 1970s to modern FPGA implementations and emulated cores, this catalog traces the evolution of one of the most iconic microarchitectures in computing history.
+
+Each entry in this list has been carefully curated to reflect not only technical specifications — such as clock speed, opcode count, signal compatibility, and performance — but also the historical and architectural context that shaped its design. Whether you're exploring retro computing, building your own SBC, or designing a modern machine-time system, this catalog offers a comprehensive reference across decades of silicon innovation.
+
+Highlights include:
+- ✅ Original MOS and Synertek variants
+- ✅ CMOS successors and embedded SoCs
+- ✅ FPGA softcores with cycle-accurate timing
+- ✅ Educational kits and breadboard builds
+- ✅ Emulators in Python, TypeScript, Rust, and C++
+- ✅ Extended architectures like 65C02, 65CE02, and 65816
+
+This is more than a list — it's a living archive of machine-time intelligence. May it serve as a resource, a roadmap, and a celebration of the 6502 legacy.
+
+*Compiled with care by ElectroDrome.*
+
+---
+
+
 | Manufacturer     | Model        | Year | Architecture           | Clock (MHz) | RAM          | I/O Ports                                    | Signals                                     | Opcodes      | MIPS | Cycles/Instr. | Performance   | Profil      | Notable Features                                |
 |------------------|--------------|------|------------------------|-------------|--------------|----------------------------------------------|---------------------------------------------|--------------|------|---------------|---------------|-------------|-------------------------------------------------|
 | aholme.co.uk     | Verilog6502  | 2012 | Verilog, 6502          | 10          | extern       | 6502 bus                                     | IRQ, NMI, RDY, PHI2, SYNC, SO               | 151 (6502)   | 4.3  | 2-7           | 10.0x (6502)  | FPGA        | Phase-accurate, netlist-derived from Visual6502 |
