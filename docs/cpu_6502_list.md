@@ -14,6 +14,13 @@ Highlights include:
 
 This is more than a list — it's a living archive of machine-time intelligence. May it serve as a resource, a roadmap, and a celebration of the 6502 legacy.
 
+This catalog will continue to grow — additions, corrections, and suggestions are always welcome. If you know of rare 6502 variants, unique emulations, or under-documented cores, feel free to contribute via pull request or issue.
+
+⚠️ Note: The main CPU table is very wide and may require horizontal scrolling, especially on smaller displays. Unfortunately, many Markdown viewers only allow horizontal scroll once you've reached the far-right column. For optimal readability, we recommend viewing the file in a full-width GitHub browser tab.
+
+Thank you for exploring the silicon lineage of machine-time processing!
+
+
 *Compiled with care by ElectroDrome.*
 
 ---
