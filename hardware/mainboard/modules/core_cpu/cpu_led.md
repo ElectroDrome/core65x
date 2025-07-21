@@ -45,24 +45,22 @@ Both modules follow a unified layout and wiring style to ensure system-wide cons
 
 ## 🧰 Bill of Materials (BOM)
 
-| Qty | Component         | Value      | Description                          |
-|-----|-------------------|------------|--------------------------------------|
-| 3   | 74HCT244          | —          | Octal buffer, 2 for A-Bus, 1 for D-Bus  
-| 24  | LED (THT/SMD)     | Orange / Green | Bus line visualization             |
-| 24  | Resistor          | 1 kΩ         | Series resistor per LED (standardized)  
-| 1   | DIP-Switch        | 8×          | LED matrix enable/disable per segment  
-| 1   | Pinheader         | 10–20-pin   | Bus line access + GND/VCC  
-| —   | Routing to SWGM   | —          | GND control via gate on mainboard  
+| Qty | Component Type   | Value          | Description                            |
+|-----|------------------|----------------|----------------------------------------|
+| 3   | 74HCT244         | —              | Octal buffer, 2 for A-Bus, 1 for D-Bus |
+| 24  | LED (THT/SMD)    | Orange / Green | Bus line visualization                 |
+| 3   | Resistor Network | 1 kΩ           | Series resistor per LED (standardized) |
+| —   | Routing to SWGM  | —              | GND control via gate on mainboard      |
 
 ---
 
 ## 🎛️ Color-Coding Convention
 
-| Bus      | LED Color | Meaning                        |
-|----------|------------|--------------------------------|
-| A-Bus    | Orange 🟠  | Address structure, memory path  
-| D-Bus    | Green  🟢   | Data flow, active signal value  
-| Control Signals | Red 🔴 / Yellow 🟡 | Read/Write, Clock, OE, IRQ  
+| Bus             | LED Color          | Meaning                        |
+|-----------------|--------------------|--------------------------------|
+| A-Bus           | Orange 🟠          | Address structure, memory path |
+| D-Bus           | Green  🟢          | Data flow, active signal value |
+| Control Signals | Red 🔴 / Yellow 🟡 | Read/Write, Clock, OE, IRQ     |
 
 > Consistent color logic enhances user readability and module identification.
 
